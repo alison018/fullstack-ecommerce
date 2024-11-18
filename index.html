@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latino Delights</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+
+<body>
+    <!-- Menu -->
+    <nav>
+        <div class="navbar-container">
+            <div class="nav-top" style="padding-bottom: 0;">
+                <div class="nav-left">
+                    <ul class="navbar-icons">
+                        <p class="text-color animate" style="font-size: smaller; margin-left: 1rem;">
+                            FREE SHIPPING on Orders Over €79</p>
+                    </ul>
+                </div>
+                <ul class="navbar-icons">
+                    <ul class="navbar-icons">
+                        <li><a href="#contacts">
+                                <p class="text-color">Contact us</p>
+                            </a></li>
+                        <li class="language-dropdown">
+                            <button>
+                                <a href="#" id="lang-icon" class="dropdown-toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f2ed92"
+                                        class="bi bi-translate" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286zm1.634-.736L5.5 3.956h-.049l-.679 2.022z" />
+                                        <path
+                                            d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm7.138 9.995q.289.451.63.846c-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6 6 0 0 1-.415-.492 2 2 0 0 1-.94.31" />
+                                    </svg>
+                                </a>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span class="flag-icon flag-icon-es"></span> Español</a></li>
+                                <li><a href="#"><span class="flag-icon flag-icon-de"></span> Deutsch</a></li>
+                                <li><a href="#"><span class="flag-icon flag-icon-gb"></span> English</a></li>
+                            </ul>
+                        </li>
+                        <li class="shopping-cart"><button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#f2ed92"
+                                    class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+                                    <path
+                                        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z" />
+                                </svg>
+                            </button></li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="nav-bottom">
+                <div class="nav-left">
+                    <img class="logo" src="/assets/images/LogoLatinoFood-rounded.png" alt="">
+                    <input type="checkbox" id="check" />
+                    <label for="check" class="checkbtn">
+                        <ion-icon name="grid-outline"></ion-icon>
+                    </label>
+                    <ul class="navbar-icons">
+                        <li><a href="#hero-section" class="active">Home</a></li>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#menu">Shop</a></li>
+                        <li><a href="#testimonial">Delights by country</a></li>
+                        <li><a href="#app">Download App</a></li>
+                    </ul>
+                </div>
+                <ul class="navbar-icons">
+                    <!--svg for tiktok-->
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg></a></li>
+                    <!--svg for x-->
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                            </svg></a></li>
+                    <!--svg for tiktok-->
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-tiktok" viewBox="0 0 16 16">
+                                <path
+                                    d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                            </svg></a></li>
+                    <!--svg for shopping card-->
+                    <li class="shopping-cart"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0" />
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Menu -->
+    <header>
+        <section class="creative-hero--section">
+            <div class="bg bg-image"
+                style="background-image: url('/assets/images/patryk-pastewski-kKzKFWA2Wig-unsplash.jpg');">
+            </div>
+            <div class="bg-overlay"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <span class="hero-subtitle" style="color:#f2ed92; display: flex; align-items: center;"><span><img
+                                src="assets/images/LogoLatinoFood-rounded.png" alt="" style="width: 80px;"></span> Latin
+                        Flavors to All of
+                        Germany</span>
+                    <h1 class="hero-title" style="color: #f2ed92;">Latino Delights: A taste of home delivered to your
+                        door</h1>
+                    <div class="hero-desc">
+                        <p style="color:#f2ed92;"> We deliver authentic Latin American products across Germany,
+                            bringing the vibrant flavors of home to your door <br>
+                            with fast and reliable shipping.
+                        </p>
+                    </div>
+                    <div class="btn-box">
+                        <a class="hero-cta" href="">
+                            <span class="cta-title">Discover More <svg class="arrow-cta"
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                </svg></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <!--Products -->
+            </section>
+            <section></section>
+        </article>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <!-- Countries Section -->
+                <div class="footer-column">
+                    <h4>Countries</h4>
+                    <ul>
+                        <li><a href="#">Colombia</a></li>
+                        <li><a href="#">Panama</a></li>
+                        <li><a href="#">Brazil</a></li>
+                        <li><a href="#">Peru</a></li>
+                        <li><a href="#">Argentina</a></li>
+                        <li><a href="#">Other Latin American countries</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Order</a></li>
+                        <li><a href="#">Download our App</a></li>
+                    </ul>
+                </div>
+
+                <!-- Get in Touch Section -->
+                <div class="footer-column">
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Suggestion</a></li>
+                    </ul>
+                </div>
+
+                <!-- Subscribe Section -->
+                <div class="footer-column">
+                    <h4>Subscribe Today</h4>
+                    <form action="#" class="subscribe">
+                        <div class="subscribe-wrapper">
+                            <input type="text" class="subscribe__input" placeholder="Enter Email Address">
+                            <button type="button" class="subscribe__btn">
+                                <i class="bi bi-send"></i>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="social_profile">
+                        <ul>
+                            <!--svg for tiktok-->
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                    </svg></a></li>
+                            <!--svg for x-->
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                    </svg></a></li>
+                            <!--svg for tiktok-->
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                        <path
+                                            d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright Section -->
+            <div class="footer-copyright">
+                <p>Copyright &copy; 2024. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
+</body>
+
+</html>
